@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Your AI Feature Deserves Better Than a Spinner: A Jetpack Compose Response Card",
+    "url": "https://dev.to/prem_singh_1997/your-ai-feature-deserves-better-than-a-spinner-a-jetpack-compose-response-card-4n83",
+    "description": "An AI response can take a moment. During that pause, the interface has a job: explain what is...",
+    "date": "2026-10-18",
+    "tags": [
+      "android",
+      "design",
+      "kotlin",
+      "tutorial"
+    ]
+  },
+  {
+    "title": "Beyond the Run Button: Android Debugging with ADB and Gradle",
+    "url": "https://dev.to/prem_singh_1997/beyond-the-run-button-android-debugging-with-adb-and-gradle-5gnf",
+    "description": "\u201cIt works when I press Run\u201d is a starting point. A useful debugging workflow also lets another...",
+    "date": "2026-10-18",
+    "tags": [
+      "android"
+    ]
+  },
+  {
+    "title": "The Compose Search Bug That Debounce Doesn't Fix",
+    "url": "https://dev.to/prem_singh_1997/the-compose-search-bug-that-debounce-doesnt-fix-1kbf",
+    "description": "A user searches for cat, then changes the query to car. For a moment, results for cats appear under...",
+    "date": "2026-10-18",
+    "tags": [
+      "android"
+    ]
+  }
+]
