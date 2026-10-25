@@ -1,0 +1,68 @@
+[
+  {
+    "repo": "uber/AutoDispose",
+    "number": 551,
+    "org": "Uber",
+    "title": "Restoring compiler checks",
+    "description": "Restored service registration so Error Prone can discover AutoDispose\u2019s checker.",
+    "url": "https://github.com/uber/AutoDispose/pull/551",
+    "state": "merged",
+    "logo": "assets/uber.png",
+    "verified": "2026-10-25"
+  },
+  {
+    "repo": "googlemaps/android-maps-compose",
+    "number": 1045,
+    "org": "Google Maps",
+    "title": "Precision in the details",
+    "description": "Preserved fractional distance labels in the Compose ScaleBar widget.",
+    "url": "https://github.com/googlemaps/android-maps-compose/pull/1045",
+    "state": "open",
+    "logo": "assets/googlemaps.png",
+    "verified": "2026-10-25"
+  },
+  {
+    "repo": "androidx/media",
+    "number": 3473,
+    "org": "AndroidX",
+    "title": "Reliable playback state",
+    "description": "Corrected loading state when ExoPlayer reaches the end of playback.",
+    "url": "https://github.com/androidx/media/pull/3473",
+    "state": "open",
+    "logo": "assets/androidx.png",
+    "verified": "2026-10-25"
+  },
+  {
+    "repo": "microsoft/fluentui-android",
+    "number": 843,
+    "org": "Microsoft",
+    "title": "Gestures that play well together",
+    "description": "Preserved horizontal fling velocity in vertical drawer connections.",
+    "url": "https://github.com/microsoft/fluentui-android/pull/843",
+    "state": "open",
+    "logo": "assets/microsoft.png",
+    "verified": "2026-10-25"
+  },
+  {
+    "repo": "airbnb/lottie-android",
+    "number": 2745,
+    "org": "Airbnb",
+    "title": "Correct animation curves",
+    "description": "Keyed the interpolator cache by exact control points to avoid collisions.",
+    "url": "https://github.com/airbnb/lottie-android/pull/2745",
+    "state": "open",
+    "logo": "assets/airbnb.png",
+    "verified": "2026-10-25"
+  },
+  {
+    "repo": "bumptech/glide",
+    "number": 5789,
+    "org": "Glide",
+    "title": "Compatibility that matters",
+    "description": "Isolated an API-24 type to prevent DecodeJob class-loading failures on API 23.",
+    "url": "https://github.com/bumptech/glide/pull/5789",
+    "state": "open",
+    "logo": "assets/bumptech.png",
+    "verified": "2026-10-25"
+  }
+]
