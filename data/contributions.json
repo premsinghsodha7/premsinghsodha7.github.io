@@ -1,5 +1,77 @@
 [
   {
+    "repo": "cashapp/paparazzi",
+    "number": 2532,
+    "org": "Cash App",
+    "title": "Distinct recordings, correct playback",
+    "description": "Included frame rate in animation report hashes so recordings at different speeds do not overwrite each other.",
+    "logo": "assets/cashapp.png",
+    "state": "open",
+    "url": "https://github.com/cashapp/paparazzi/pull/2532",
+    "verified": "2026-11-04",
+    "upstream_title": "Include frame rate in video report hashes"
+  },
+  {
+    "repo": "Kotlin/kotlinx.collections.immutable",
+    "number": 383,
+    "org": "Kotlin",
+    "title": "Skip identical sublist traversal",
+    "description": "Added a constant-time equality path for immutable sublists with the same backing source and range.",
+    "logo": "assets/kotlin.png",
+    "state": "open",
+    "url": "https://github.com/Kotlin/kotlinx.collections.immutable/pull/383",
+    "verified": "2026-11-04",
+    "upstream_title": "Compare identical immutable sublist ranges without traversal"
+  },
+  {
+    "repo": "Kotlin/kotlinx.collections.immutable",
+    "number": 382,
+    "org": "Kotlin",
+    "title": "Keep unchanged builders cached",
+    "description": "Preserved ordered-map builder cache identity when entry updates make no effective change.",
+    "logo": "assets/kotlin.png",
+    "state": "open",
+    "url": "https://github.com/Kotlin/kotlinx.collections.immutable/pull/382",
+    "verified": "2026-11-04",
+    "upstream_title": "Preserve ordered map builder cache on no-op entry updates"
+  },
+  {
+    "repo": "Kotlin/kotlinx.collections.immutable",
+    "number": 381,
+    "org": "Kotlin",
+    "title": "Preserve empty set identity",
+    "description": "Kept already-empty persistent sets unchanged when retaining elements.",
+    "logo": "assets/kotlin.png",
+    "state": "open",
+    "url": "https://github.com/Kotlin/kotlinx.collections.immutable/pull/381",
+    "verified": "2026-11-04",
+    "upstream_title": "Preserve empty set identity when retaining elements"
+  },
+  {
+    "repo": "Kotlin/kotlinx.collections.immutable",
+    "number": 380,
+    "org": "Kotlin",
+    "title": "Safe map iteration after failures",
+    "description": "Preserved ordered-map builder iterator state when a key lookup throws.",
+    "logo": "assets/kotlin.png",
+    "state": "open",
+    "url": "https://github.com/Kotlin/kotlinx.collections.immutable/pull/380",
+    "verified": "2026-11-04",
+    "upstream_title": "Preserve ordered map builder iterator state when lookup throws"
+  },
+  {
+    "repo": "Kotlin/kotlinx.collections.immutable",
+    "number": 379,
+    "org": "Kotlin",
+    "title": "Recoverable set iteration",
+    "description": "Advanced ordered-set iterator state only after lookup succeeds, allowing failures to be retried.",
+    "logo": "assets/kotlin.png",
+    "state": "open",
+    "url": "https://github.com/Kotlin/kotlinx.collections.immutable/pull/379",
+    "verified": "2026-11-04",
+    "upstream_title": "Preserve ordered set iterator state when lookup throws"
+  },
+  {
     "repo": "uber/AutoDispose",
     "number": 551,
     "org": "Uber",
@@ -8,7 +80,8 @@
     "url": "https://github.com/uber/AutoDispose/pull/551",
     "state": "merged",
     "logo": "assets/uber.png",
-    "verified": "2026-10-25"
+    "verified": "2026-11-04",
+    "upstream_title": "Restore Error Prone checker service registration"
   },
   {
     "repo": "googlemaps/android-maps-compose",
@@ -17,9 +90,10 @@
     "title": "Precision in the details",
     "description": "Preserved fractional distance labels in the Compose ScaleBar widget.",
     "url": "https://github.com/googlemaps/android-maps-compose/pull/1045",
-    "state": "open",
+    "state": "merged",
     "logo": "assets/googlemaps.png",
-    "verified": "2026-10-25"
+    "verified": "2026-11-04",
+    "upstream_title": "fix(widgets): preserve fractional scale bar distances"
   },
   {
     "repo": "androidx/media",
@@ -30,7 +104,8 @@
     "url": "https://github.com/androidx/media/pull/3473",
     "state": "open",
     "logo": "assets/androidx.png",
-    "verified": "2026-10-25"
+    "verified": "2026-11-04",
+    "upstream_title": "Clear loading state when playback ends"
   },
   {
     "repo": "microsoft/fluentui-android",
@@ -41,7 +116,8 @@
     "url": "https://github.com/microsoft/fluentui-android/pull/843",
     "state": "open",
     "logo": "assets/microsoft.png",
-    "verified": "2026-10-25"
+    "verified": "2026-11-04",
+    "upstream_title": "Preserve horizontal fling velocity in vertical drawer connections"
   },
   {
     "repo": "airbnb/lottie-android",
@@ -52,7 +128,8 @@
     "url": "https://github.com/airbnb/lottie-android/pull/2745",
     "state": "open",
     "logo": "assets/airbnb.png",
-    "verified": "2026-10-25"
+    "verified": "2026-11-04",
+    "upstream_title": "Key interpolator cache by exact control points"
   },
   {
     "repo": "bumptech/glide",
@@ -63,6 +140,7 @@
     "url": "https://github.com/bumptech/glide/pull/5789",
     "state": "open",
     "logo": "assets/bumptech.png",
-    "verified": "2026-10-25"
+    "verified": "2026-11-04",
+    "upstream_title": "Fix DecodeJob class loading below API 24"
   }
 ]

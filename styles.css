@@ -13,3 +13,7 @@ body{overflow-x:clip}
 @media(max-width:600px){.identity-stage{width:100%;margin-inline:0}.stage-note{left:12px}}
 @media(max-width:600px){.orbit-two{width:250px;height:300px}}
 .portrait-monogram{height:305px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle at 30% 20%,#f2eaff,#c6afe6 70%);color:#6949a8;position:relative;overflow:hidden}.portrait-monogram:before,.portrait-monogram:after{content:'';position:absolute;width:260px;height:260px;border:1px solid #9574be50;border-radius:50%;transform:rotate(-20deg) scaleX(.8)}.portrait-monogram:after{transform:rotate(35deg) scaleX(.8)}.portrait-monogram>span{position:relative;z-index:1;font:italic 130px/1 Georgia;letter-spacing:-14px;padding-right:13px}.portrait-monogram .monogram-dot{color:#96a66f;letter-spacing:-9px}.portrait-monogram>small{font-size:8px;font-weight:700;letter-spacing:2.5px;text-align:center;margin-top:28px;color:#83679f;z-index:1}.portrait-frame{border-color:#fff}@media(max-width:600px){.portrait-monogram{height:280px}}
+
+/* Eight upstream ecosystems, with no duplicated organization marks. */
+@media(min-width:1101px){.org-strip-expanded{grid-template-columns:repeat(8,minmax(0,1fr));gap:10px}.org-strip-expanded .org{font-size:11px;gap:7px}.org-strip-expanded .org img{width:24px;height:24px}}
+@media(min-width:601px) and (max-width:1100px){.org-strip-expanded{grid-template-columns:repeat(4,minmax(0,1fr))}}

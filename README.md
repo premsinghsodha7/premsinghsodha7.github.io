@@ -9,7 +9,7 @@ Static HTML, CSS and JavaScript. No build step or server secrets. Serve the repo
 - Professional experience is based on the supplied Prem Singh resume; no numeric experience claims.
 - Profile identity: custom PS monogram. No personal photo is republished.
 - Organization logos: public GitHub avatars for the upstream repositories linked in the contribution sections. They identify projects, not employers or endorsements.
-- Pull requests: six direct upstream links, verified 25 October 2026. Initial states are stored in data/contributions.json. The browser can refresh badges from GitHub's public API with a 15-minute session cache; on failure the verified snapshot remains.
+- Pull requests: twelve direct upstream links, verified 4 November 2026. Initial states are stored in data/contributions.json. The browser can refresh badges from GitHub's public API with a 15-minute session cache; on failure the verified snapshot remains.
 - Articles: DEV public API for prem_singh_1997, with direct article links.
 - Projects: public premsinghsodha7 repositories and project screenshots. RoamlyKMP uses its repository vector preview. All showcased apps are personal demos, not client deliverables.
 - Manrope font: Google Fonts, SIL Open Font License included in assets/Manrope-OFL.txt.
